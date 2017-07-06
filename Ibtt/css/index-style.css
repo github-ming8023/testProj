@@ -1,0 +1,492 @@
+@charset "UTF-8";
+    /*768px以下样式*/
+header .navbar-header {
+    background: black;
+}
+
+header #logo {
+    display: inline-block;
+    height: 50px;
+    margin-left: 15px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: none;
+    line-height: 50px;
+    float: left;
+}
+
+header #logo {
+    text-decoration: none;
+}
+
+header #logo .logo-img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+}
+
+header .navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+/*主体区域样式 page1*/
+.main-body .page1 .carousel .item {
+    height: 350px;
+
+}
+
+.main-body .page1 .carousel-caption {
+    text-shadow: none;
+}
+
+/*轮播里面图片文字位置*/
+.main-body .page1 .carousel-caption {
+    top: 20%;
+}
+
+.main-body .page1 .car-image2 {
+    display: none;
+}
+
+/*轮播图第第一张文本样式*/
+.main-body .page1 .lb-one {
+    color: #404040;
+    text-align: left;
+    font-size: small;
+}
+
+.main-body .page1 .lb-one p {
+    line-height: 5px;
+
+}
+
+.main-body .page1 .lb-one p:first-child {
+
+    font-size: large;
+}
+
+/*主体区域样式 page2*/
+.main-body .page2 {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.main-body .page2 .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/*主体区域样式 page2 page4 page7 page9*/
+.main-body .page2 .section-header::before, .main-body .page4 .section-header::before, .main-body .page7 .section-header::before, .main-body .page9 .section-header::before {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 51px;
+    background: url(../img/title-top.png) no-repeat;
+}
+
+/*主体区域样式 page2 page4 page7 page9*/
+.main-body .page2 .section-header, .main-body .page4 .section-header, .main-body .page7 .section-header, .main-body .page9 .section-header {
+    font-size: xx-large;
+    line-height: normal;
+}
+
+/*主体区域样式 page4 page2 page7 page9*/
+.main-body .page2 .section-subheader, .main-body .page4 .section-subheader, .main-body .page7 .section-subheader, .main-body .page9 .section-subheader {
+    font-size: x-large;
+    line-height: normal;
+}
+
+.main-body .page2 .mainp > p {
+    font: 18px/32px "Microsoft Yahei";
+    color: #404040;
+    margin: 32px 0;
+}
+
+.main-body .page2 .str-lc {
+    padding: 40px 0;
+}
+
+/*主体区域样式 page4,page7,page9*/
+.mar-top40 {
+    margin-top: 40px;
+}
+
+.main-body .page4,.main-body .page7,.main-body .page9 {
+    padding: 80px 0;
+    text-align: center;
+    color: #777;
+}
+.mar-bot20 {
+    margin-bottom: 20px;
+}
+.gl-5x {
+    font-size: 5em;
+}
+
+/*主体区域样式 page7*/
+.main-body .page7 .text-bold{
+    font-family: Microsoft YaHei, 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0 0 20px 0;
+    color: #222;
+}
+.main-body .page7 .mainp > p {
+    font: 18px/32px "Microsoft Yahei";
+    color: #404040;
+    margin: 32px 0;
+}
+
+.btn{
+    padding: 60px 120px !important;
+}
+
+
+
+
+/*================================
+ * btn ANIMATION
+ *================================*/
+
+.btn-modal {
+    position: relative;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.btn-modal:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, .22) !important;
+}
+
+.btn-modal:focus {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, .3) !important;
+}
+
+.btn-modal span {
+    position: relative;
+    z-index: 1;
+}
+
+.paterner-btn {
+    overflow: hidden;
+    height: 124px;
+    width: 200px;
+    padding: 10px 10px 10px;
+    margin: 30px 0;
+    -webkit-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-modal {
+    border: 1px solid #E6E9ED;
+    border-bottom-width: 2px;
+    box-shadow: none !important;
+}
+
+.animation53 {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.animation56 {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.animation58 {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.animation59 {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.animation512 {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+.animation103 {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.animation203 {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.animation206 {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.animation209 {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.animation212 {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+section#footer {
+    background: #242424;
+    margin: 0;
+    text-align: center;
+    padding: 80px 0 60px 0;
+    margin: 0;
+}
+
+/*================================
+ *
+ *================================*/
+
+.vrone {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.vrone .backimg {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: opacity 0.3s, transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.vrone:hover .backimg {
+    opacity: 0.3;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.vrone .qrcode {
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: rgba(220, 220, 220, 1);
+    opacity: 0;
+    top: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+.vrone:hover .qrcode {
+    text-decoration: none;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.vrone .qrcode p {
+    color: #777777;
+    margin-top: 5px
+}
+
+.vrbox {
+    border: 1px solid #70B9B0;
+    box-sizing: border-box;
+}
+
+.vrbox:hover {
+    border-color: #95c5ec;
+    box-shadow: 0 0 15px #ccd2d6
+}
+
+.vrtext {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.vrtext span {
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+
+/*768px及其以上样式*/
+
+@media (min-width: 768px) {
+    header #logo {
+        height: 70px;
+        margin-left: 100px;
+        line-height: 70px;
+    }
+
+    header #logo .logo-img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    header .navbar-header {
+        background: transparent;
+    }
+
+    /*导航条样式*/
+    header .navbar-inverse {
+        background-color: transparent;
+        border: none;
+    }
+
+    header .navbar-inverse .navbar-nav > .active > a {
+        background: transparent;
+        color: #79CDC0;
+    }
+
+    header .navbar-inverse .navbar-nav > .active > a:hover {
+        background: transparent;
+        color: #79CDC0;
+    }
+
+    header .navbar-inverse .navbar-nav > li > a {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    header .navbar-inverse .navbar-nav > li > a:hover {
+        color: #79CDC0;
+    }
+
+    header .navbar-nav > li:last-child {
+        margin-right: 100px;
+
+    }
+
+    /*滚动到一定距离变化样式*/
+    header.scrollStyle .navbar-inverse {
+        background: black;
+    }
+
+    /*主体区域样式 page1*/
+    .main-body .page1 .carousel .item {
+        height: 700px;
+
+    }
+
+    .main-body .page1 .car-image2 {
+        display: block;
+    }
+
+    /*轮播图第第一张文本样式*/
+    .main-body .page1 .lb-one {
+        font-size: 22px;
+    }
+
+    .main-body .page1 .lb-one p:first-child {
+        font-size: 28px;
+    }
+
+    /*轮播里面图片文字位置*/
+    .main-body .page1 .carousel-caption {
+        top: 37%;
+    }
+
+    /*主体区域样式 page2*/
+
+}
+
